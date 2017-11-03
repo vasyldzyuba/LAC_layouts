@@ -1,0 +1,80 @@
+body {
+	/*background-image: url(../img/background.png);
+	background-size: cover;  
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: "Lato" !important;*/
+}
+
+/*Navigation Menu*/
+
+.navigation_menu img {
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.navigation_menu {
+	padding: 0 4% 0 4%;
+	border-bottom: none !important;
+	background-color: #f7f7f7 !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+}
+
+.navigation_menu .item {
+	color: #28a3ff !important;
+}
+
+.navigation_menu .menu .active {
+	color: #28a3ff !important;
+}
+
+.navigation_menu .item:hover {
+	color: #0061B1 !important;
+}
+
+
+
+/*Main Content*/
+
+.main_content {
+	padding: 2% 10% 2% 10% !important;
+	margin-top: 10%;
+	background-color: #f7f7f7 !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+}
+
+.uppload_zone {
+	width: 70%;
+	margin: 0 15% 0 15%;
+	height: 200px;
+	background-color: #f2f2f2;
+	border-color: #d8d8d8;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 2%;
+}
+
+.map_zone {
+	width: 80%;
+	margin: 0 10% 0 10%;
+	height: 250px;
+	background-color: #d3d3d3;
+}
+
+/*Footer*/
+
+.footer {
+	text-align: center;
+	background-color: #1B1C1D !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+	padding: 1.5% 0;
+}
+
+.footer h5 {
+	color: #BBBBA2 !important;
+}
+
+.footer h5:hover {
+	color: #F9FFFF !important;
+}

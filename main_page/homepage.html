@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <link rel="stylesheet" href="../css/semantic.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>LAC</title>
+</head>
+<body>
+  <!--Navigation Menu-->
+    <div class="ui blue massive stackable secondary pointing top fixed menu navigation_menu">
+      <a href="#"><img src="../img/256.png"></a>
+      <div class="right menu right_content">
+        <a class="item active">Головна</a>
+        <a class="link item">Подати скаргу</a>
+        <a class="link item">Мапа</a>
+      </div>
+    </div>
+  <!--Main Content-->
+    <div class="main_content">
+      <div class="send_complaint">
+        <h2 class="ui center aligned icon header">
+          <div class="content">
+            Подання скарги
+            <div class="sub header">Відправте вашу скаргу заповнивши поля знизу</div>
+          </div>
+        </h2>
+        <form class="ui form">
+          <label>Особисті дані*</label>
+          <div class="three fields">
+            <div class="field">
+              <input type="text" placeholder="Ім'я">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Прізвище">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Номер телефону">
+            </div>
+          </div>
+        </form>
+        <div class="ui form">
+          <label>Опис ДТП</label>
+          <div class="field">
+            <textarea type="text" placeholder="Опис"></textarea>
+          </div>
+          <p></p>
+        </div>
+        <form class="ui form">
+          <label>Додаткові дані</label>
+          <div class="three fields">
+            <div class="field">
+              <input type="text" placeholder="Дата">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Час">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Місце">
+            </div>
+          </div>
+        </form>
+        <div class="ui fluid image_uppload">
+          <label>Прикріпити фото/відео</label>
+          <div class="ui fluid uppload_zone">
+          </div>  
+        </div>
+      </div>
+      <div class="ui divider"></div>
+      <div class="map">
+        <h2 class="ui center aligned icon header">
+          <div class="content">
+            Мапа
+            <div class="sub header">Переглядайте активні скарги на мапі</div>
+          </div>
+        </h2>    
+        <div class="ui fluid map_zone"></div>
+      </div>
+      <p></p>
+    </div>
+  <!--Footer-->
+    <div class="ui bottom attached footer">
+      <h5>IntElligence Inc. All Rights Reserved</h5>  
+    </div>
+</body>
+  <script type="text/javascript" src="../js/semantic.js"></script>
+  <script type="text/javascript" src="../js/my.js"></script>
+</html>
