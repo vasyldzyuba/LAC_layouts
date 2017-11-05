@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <link rel="stylesheet" href="../css/semantic.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>LAC</title>
+</head>
+<body>
+  <!--Navigation Menu-->
+    <div class="ui blue massive stackable secondary pointing top fixed menu navigation_menu">
+      <a href="#"><img src="../img/256.png"></a>
+      <div class="right menu right_content">
+        <a class="link item" href="homepage.html">Головна</a>
+        <a class="link item">Подати скаргу</a>
+        <a class="link item">Мапа</a>
+        <a class="item active">Зв'язатись з нами</a>
+      </div>
+    </div>
+  <!--Main Content-->
+    <div class="main_content">
+      <div class="container">
+        <form id="feedbackMessageForm" action="/feedback/process-feedback-form.php" enctype="multipart/form-data" novalidate>
+        <label for="fname">Ім'я</label>
+      <input type="text" id="fname" name="firstname" placeholder="Введіть ваше ім'я...">
+    </form>
+      <form id="feedbackForm" action="/feedback/process-feedback-form.php" enctype="multipart/form-data" novalidate>
+      <label for="lname">Прізвище</label>
+      <input type="text" id="lname" name="lastname" placeholder="Введіть ваше прізвище...">
+    </form>
+      <form id="feedbackForm" action="/feedback/process-feedback-form.php" enctype="multipart/form-data" novalidate>
+      <label for="message">Повідомлення</label>
+      <textarea id="message" name="message" placeholder="Впишіть повідомлення..." style="height:200px"></textarea>
+      </form>
+      <form>
+     <p><input type="submit"></p>
+    </form>
+
+  </div>
+    </div>
+  <!--Footer-->
+    <div class="ui bottom attached footer">
+      <h5>IntElligence Inc. All Rights Reserved</h5>
+    </div>
+</body>
+  <script type="text/javascript" src="../js/semantic.js"></script>
+  <script type="text/javascript" src="../js/my.js"></script>
+</html>
