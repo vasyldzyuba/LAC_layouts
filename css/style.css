@@ -1,8 +1,8 @@
 body {
 	/*background-image: url(../img/background.png);
-	background-size: cover;  
+	background-size: cover;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     font-family: "Lato" !important;*/
 }
 
@@ -77,4 +77,36 @@ body {
 
 .footer h5:hover {
 	color: #F9FFFF !important;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style the submit button*/
+input[type=submit] {
+    background-color: rgb(150, 149, 162);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: 	rgb(27, 127, 200);
+}
+
+/* Add a background color */
+.container {
+    border-radius: 5px;
+    padding: 40px;
 }
